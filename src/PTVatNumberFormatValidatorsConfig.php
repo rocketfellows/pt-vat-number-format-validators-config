@@ -8,7 +8,7 @@ use rocketfellows\CountryVatFormatValidatorInterface\CountryVatFormatValidatorIn
 use rocketfellows\PTVatFormatValidator\PTVatFormatValidator;
 use rocketfellows\SpecificCountryVatNumberFormatValidatorsConfig\SpecificCountryVatNumberFormatValidatorsConfig;
 
-class CountryVatNumberFormatValidatorsConfig extends SpecificCountryVatNumberFormatValidatorsConfig
+class PTVatNumberFormatValidatorsConfig extends SpecificCountryVatNumberFormatValidatorsConfig
 {
     public function getCountry(): Country
     {
